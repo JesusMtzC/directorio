@@ -16,7 +16,7 @@
     $sql = "INSERT INTO directorio('nombre', 'apellido', 'tel', 'cel', 'facebook', 'twitter', 'insta)' values 
     ('ricardo', 'valencia','correo', 'telefono', 'celular', 'facebook', 'twitter', 'instagram')";
     echo $sql;
-    
+    echo "Hola"
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
       } else {
