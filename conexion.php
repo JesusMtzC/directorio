@@ -1,11 +1,12 @@
 <?php
-
-    $conn = mysqli_connect("localhost","root","", "seguridad");
-    if(!$conn){
-        die("imposible conectarse: ".mysqli_error($conn));
-    }
-    if (mysqli_connect_errno()) {
-        die("Conexión falló: ".mysqli_connect_errno()." : ". mysqli_connect_error());
-    }
-    
+    //devuelve un objeto de conexion
+    $conn = mysqli_connect(
+    'localhost',
+    'root',
+    '',
+    'seguridad'
+);
+//comprobamos si se hizo la conexion existe el objeto
+ /*if(isset($conn)){
+    //echo'Base conectada';}  */
 ?>

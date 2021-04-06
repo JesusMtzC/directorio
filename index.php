@@ -1,3 +1,4 @@
+<?php include("conexion.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,7 @@
 </head>
 <body>
     <h1>Directorio</h1>
-    <form action="server.php" method="post">
+    <form action="server.php" method="POST">
         <section class = "form-register">
             <input class = "controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
             <input class = "controls" type="text" name="apellido" id="apellido" placeholder="Ingrese sus apellidos">
@@ -19,7 +20,7 @@
             <input class = "controls" type="text" name="facebook" id="facebook" placeholder="Ingrese su facebook">
             <input class = "controls" type="text" name="twitter" id="twitter" placeholder="Ingrese su twitter">
             <input class = "controls" type="text" name="instagram" id="instagram" placeholder="Ingrese su instagram">
-            <input  class = "botons" type="submit" value = "Enviar " >
+            <input  class = "botons" type="submit" name="save-task" value = "Enviar " >
             <input  class = "botons" type="submit" value = "Consultar " >
         </section>
     </form>
