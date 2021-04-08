@@ -12,7 +12,7 @@
     <h1>Directorio</h1>
     <form action="server.php" method="POST" action="index.php">
         <section class = "form-register">
-            <input class = "controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <input class = "controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
             <input class = "controls" type="text" name="apellido" id="apellido" placeholder="Ingrese sus apellidos">
             <input class = "controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
             <input class = "controls" type="tel" name="telefono" id="telefono" placeholder="Ingrese su telefono">
