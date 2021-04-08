@@ -1,6 +1,6 @@
 <?php include("conexion.php"); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Directorio</h1>
-    <form action="server.php" method="POST">
+    <form action="server.php" method="POST" action="index.php">
         <section class = "form-register">
             <input class = "controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
             <input class = "controls" type="text" name="apellido" id="apellido" placeholder="Ingrese sus apellidos">
@@ -21,13 +21,15 @@
             <input class = "controls" type="text" name="twitter" id="twitter" placeholder="Ingrese su twitter">
             <input class = "controls" type="text" name="instagram" id="instagram" placeholder="Ingrese su instagram">
             <input  class = "botons" type="submit" name="save-task" value = "Enviar " >
-            <input  class = "botons" type="submit" value = "Consultar " >
+            <input  class = "botons" type="submit" name="consul" value = "Consultar " >
         </section>
+
+
     </form>
 
     <table>
         <thead><
-            /thead>
+            
     </table>
     
 </body>

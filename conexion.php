@@ -1,7 +1,8 @@
 <?php
+    
     //devuelve un objeto de conexion
     $conn = mysqli_connect(
-    'localhost',
+   'localhost',
     'root',
     '',
     'seguridad'
